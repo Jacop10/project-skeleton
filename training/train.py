@@ -2,7 +2,7 @@ import torch
 
 import wandb
 
-wandb.init(project="mldl_lab3", entity="s333730-politecnico-di-torino")
+wandb.init(project="project-skeleton", entity="s333730-politecnico-di-torino")
 
 def train(epoch, model, train_loader, criterion, optimizer, device):
     model.train()
